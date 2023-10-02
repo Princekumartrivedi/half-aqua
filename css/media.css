@@ -1,0 +1,176 @@
+@media (min-width:998px) {
+  .container {
+    width: 1200px;
+  }
+}
+
+
+/* /////////////////////////////////////// */
+
+
+
+@media screen and (max-width: 991px) {
+  .mb-md50 {
+    margin-bottom: 50px;
+  }
+
+  .mb-md30 {
+    margin-bottom: 30px;
+  }
+
+  .mb-md0 {
+    margin-bottom: 0;
+  }
+
+  .hide-md {
+    display: none !important;
+  }
+
+  .bg-fixed {
+    background-attachment: scroll !important;
+  }
+
+  .text-right {
+    text-align: left !important;
+  }
+
+  .navbar .navbar-collapse {
+    max-height: 340px;
+    overflow: auto;
+    background: #111;
+    text-align: center;
+    padding: 10px 0;
+  }
+
+  .navbar .nav-link {
+    margin: 10px auto !important;
+  }
+
+  .navbar .nav-link:after {
+    display: none;
+  }
+
+  .nav-scroll {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .nav-scroll .navbar-collapse .nav-link {
+    color: #fff !important;
+  }
+
+  .nav-scroll .navbar-collapse .active {
+    color: #823DCC !important;
+  }
+
+  .header {
+    min-height: 100vh;
+    background-attachment: scroll !important;
+    background-position: 50% 0% !important;
+  }
+
+  .header .caption h1 {
+    font-size: 40px;
+    line-height: 1.4;
+  }
+
+  .portfolio .items {
+    width: 50% !important;
+  }
+
+  .services .carousel-img .slick-list,
+  .services .carousel-img .slick-track {
+    height: 350px;
+    position: relative;
+  }
+
+  .team .item,
+  .team .toright .info {
+    text-align: center;
+  }
+
+  .team .img {
+    margin: auto;
+    float: none !important;
+  }
+
+  .team .info {
+    margin: 30px 0 0 0 !important;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .mb-sm50 {
+    margin-bottom: 50px;
+  }
+
+  .mb-sm30 {
+    margin-bottom: 30px;
+  }
+
+  .btn {
+    padding: 12px 20px;
+    margin-left: 2px;
+    margin-right: 2px;
+  }
+
+  .section-head h4 {
+    font-size: 28px;
+  }
+
+  .header .caption h1 {
+    font-size: 25px;
+    line-height: 1.4;
+  }
+
+  .header .caption p {
+    font-size: 14px;
+  }
+
+  .hero .intro h5,
+  .sp-head {
+    font-size: 22px;
+    line-height: 1.5;
+  }
+
+  .get-ready h3 {
+    font-size: 25px;
+  }
+
+  .portfolio .items {
+    width: 100% !important;
+  }
+
+  .blog .post-img {
+    padding: 0;
+  }
+
+  .contact .contact-info {
+    padding: 120px 30px;
+  }
+
+  .order-first,
+  .order-last {
+    -webkit-box-ordinal-group: 1;
+    -ms-flex-order: 0;
+    order: 0;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .header .caption h1 {
+    font-size: 20px;
+    line-height: 1.4;
+  }
+
+  .section-head p {
+    display: none;
+  }
+
+  .portfolio .filtering span {
+    margin: 0;
+    padding: 8px 15px;
+  }
+}
+
+/* /////////////////////////////////////// */
